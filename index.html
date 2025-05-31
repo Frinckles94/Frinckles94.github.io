@@ -3,21 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <title>Schema.org Examples</title>
+  <meta name="description" content="Explore beautiful, real-world Schema.org structured data examples for recipes, books, and events. Modern, semantic, and visually appealing web pages.">
+  <link rel="canonical" href="https://yourdomain.com/index.html">
+  <meta property="og:title" content="Schema.org Examples">
+  <meta property="og:description" content="Explore beautiful, real-world Schema.org structured data examples for recipes, books, and events.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/index.html">
+  <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
   <style>
-    body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; }
-    h1 { color: #333; }
-    ul { list-style: none; padding-left: 0; }
-    li { margin: 10px 0; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 30px;
+      background: linear-gradient(120deg, #f8fafc 0%, #e0e7ef 100%);
+      color: #222;
+      border-radius: 18px;
+      box-shadow: 0 6px 32px rgba(60,80,120,0.08);
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    h1 {
+      color: #2e8b57;
+      font-size: 2.6em;
+      margin-bottom: 0.2em;
+      letter-spacing: 1px;
+    }
+    .subtitle {
+      color: #555;
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 18px 0;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(60,80,120,0.06);
+      padding: 18px 22px;
+      transition: box-shadow 0.2s;
+      display: flex;
+      align-items: center;
+    }
+    li:hover {
+      box-shadow: 0 4px 18px rgba(60,80,120,0.13);
+    }
+    .icon {
+      font-size: 2em;
+      margin-right: 18px;
+    }
+    .desc {
+      color: #666;
+      font-size: 1em;
+      margin-top: 4px;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Schema.org Structured Data Examples</h1>
+  <div class="hero">
+    <h1>Schema.org Structured Data Examples</h1>
+    <div class="subtitle">
+      Explore beautiful, real-world examples of structured data for recipes, books, and events.<br>
+      Each page demonstrates semantic markup and modern web design.
+    </div>
+  </div>
   <ul>
-    <li><a href="recipe.html">🍝 Recipe: Spaghetti Carbonara</a></li>
-    <li><a href="book.html">📚 Book: The Great Gatsby</a></li>
-    <li><a href="event.html">🎵 Event: Downtown Jazz Night</a></li>
+    <li>
+      <span class="icon">🍝</span>
+      <div>
+        <a href="recipe.html">Recipe: Spaghetti Carbonara</a>
+        <div class="desc">A classic Italian pasta dish with rich flavors and simple ingredients.</div>
+      </div>
+    </li>
+    <li>
+      <span class="icon">📚</span>
+      <div>
+        <a href="book.html">Book: The Great Gatsby</a>
+        <div class="desc">Dive into F. Scott Fitzgerald's timeless tale of love, ambition, and the Jazz Age.</div>
+      </div>
+    </li>
+    <li>
+      <span class="icon">🎵</span>
+      <div>
+        <a href="event.html">Event: Downtown Jazz Night</a>
+        <div class="desc">Experience a night of live jazz music at the iconic Blue Note Jazz Club.</div>
+      </div>
+    </li>
   </ul>
 </body>
 </html>
