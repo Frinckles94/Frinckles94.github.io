@@ -5,48 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="msvalidate.01" content="3C7FF7C72134220DAFA7595F644A0645" />
   <meta name="google-site-verification" content="A2ywqH9neXbIhl6VhgENZc6WgsMKN2uWALTQ_AGmmtw" />
-  <title>Schema.org Examples</title>
-  <meta name="description" content="Explore beautiful, real-world Schema.org structured data examples for recipes, books, and events. Modern, semantic, and visually appealing web pages.">
+  <title>Latvian Soups & Schema.org Examples</title>
+  <meta name="description" content="Explore beautiful, real-world Schema.org structured data examples for Latvian recipes, articles, and more. Modern, semantic, and visually appealing web pages.">
   <link rel="canonical" href="https://frinckles94.github.io/index.html">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://frinckles94.github.io/recipe.html",
+        "name": "Aukstā Zupa – Latvian Cold Beet Soup"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://frinckles94.github.io/recipe2.html",
+        "name": "Frikadeļu Zupa – Latvian Meatball Soup"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://frinckles94.github.io/article.html",
+        "name": "Why Latvian Soups Are the Best"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
+  <header>
+    <div class="hero">
+      <h1>Latvian Soups</h1>
+    </div>
+  </header>
   <nav aria-label="Main navigation">
-    <ul>
-      <li>
+    <ul class="nav-list">
+      <li onclick="location.href='recipe.html'">
         <div>
           <a href="recipe.html">Recipe: Aukstā Zupa – Latvian Cold Beet Soup</a>
           <div class="desc">A vibrant, refreshing Latvian cold beet soup made with beets, kefir, crisp vegetables, and herbs. Perfect for summer!</div>
         </div>
       </li>
-      <li>
+      <li onclick="location.href='recipe2.html'">
         <div>
           <a href="recipe2.html">Recipe: Frikadeļu Zupa – Latvian Meatball Soup</a>
           <div class="desc">A delicate and nourishing Latvian soup with small meatballs, potatoes, and seasonal vegetables. Perfect for everyday meals.</div>
         </div>
       </li>
-      <li>
+      <li onclick="location.href='article.html'">
         <div>
-          <a href="book.html">Book: The Great Gatsby</a>
-          <div class="desc">Dive into F. Scott Fitzgerald's timeless tale of love, ambition, and the Jazz Age.</div>
+          <a href="article.html">Article: Why Latvian Soups Are the Best</a>
+          <div class="desc">Discover why Latvian soups stand out: tradition, health, and heart in every bowl. Explore the culture, nutrition, and comfort of Latvia's beloved soups.</div>
         </div>
       </li>
-      <li>
+      <li onclick="location.href='faq.html'">
         <div>
-          <a href="event.html">Event: Downtown Jazz Night</a>
-          <div class="desc">Experience a night of live jazz music at the iconic Blue Note Jazz Club.</div>
+          <a href="faq.html">FAQ</a>
+          <div class="desc">Frequently asked questions about Latvian soups, recipes, and Schema.org structured data.</div>
         </div>
       </li>
     </ul>
   </nav>
   <main>
-    <div class="hero">
-      <h1>Schema.org Structured Data Examples</h1>
-      <div class="subtitle">
-        Explore beautiful, real-world examples of structured data for recipes, books, and events.<br>
-        Each page demonstrates semantic markup and modern web design.
-      </div>
-    </div>
+    <section class="about">
+      <h2>About This Project</h2>
+      <p>
+        From the iconic <a href="recipe.html">Aukstā Zupa</a> to the comforting <a href="recipe2.html">Frikadeļu Zupa</a>, explore why these dishes are beloved in Latvia and beyond.
+        Read our <a href="article.html">in-depth article</a> to learn more!
+      </p>
+      <p>
+        All recipes and articles are marked up with Schema.org structured data.
+      </p>
+    </section>
   </main>
   <footer>
     &copy; Ilja Kozirevs, ik17255. Made for educational purposes.

@@ -339,3 +339,55 @@ footer {
   font-size: 1.03em;
   line-height: 1.5;
 }
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px 32px;
+  margin: 2.2em 0 2em 0; /* Increased top margin for better spacing */
+  padding: 0;
+}
+
+.nav-list > li {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(60,80,120,0.10);
+  padding: 28px 22px 22px 22px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.18s, transform 0.18s;
+  cursor: pointer;
+  min-height: 180px;
+  border: 1px solid #f0f0f0;
+}
+
+.nav-list > li:hover {
+  box-shadow: 0 6px 24px rgba(60,80,120,0.18);
+  transform: translateY(-3px) scale(1.02);
+  border-color: #e0e7ef;
+}
+
+.nav-list a {
+  color: #2e8b57;
+  font-size: 1.18em;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  transition: color 0.15s;
+  display: block;
+}
+
+.nav-list a:hover {
+  color: #b22222;
+  text-decoration: underline;
+}
+
+.nav-list .desc {
+  color: #444;
+  font-size: 1.04em;
+  margin: 0;
+  margin-top: 0.3em;
+  line-height: 1.5;
+}
