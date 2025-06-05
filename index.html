@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="msvalidate.01" content="3C7FF7C72134220DAFA7595F644A0645" />
   <meta name="google-site-verification" content="A2ywqH9neXbIhl6VhgENZc6WgsMKN2uWALTQ_AGmmtw" />
-  <title>Latvian Soups & Schema.org Examples</title>
+  <title>Best Latvian Soups</title>
   <meta name="description" content="Explore beautiful, real-world Schema.org structured data examples for Latvian recipes, articles, and more. Modern, semantic, and visually appealing web pages.">
   <link rel="canonical" href="https://frinckles94.github.io/index.html">
   <link rel="stylesheet" href="style.css">
@@ -13,24 +13,31 @@
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
+    "name": "Best Latvian Soups",
+    "numberOfItems": 2,
+    "itemListOrder": "ItemListOrderAscending",
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://frinckles94.github.io/recipe.html",
-        "name": "Aukstā Zupa – Latvian Cold Beet Soup"
+        "item": {
+          "@type": "Recipe",
+          "name": "Aukstā Zupa - Latvian Cold Beet Soup",
+          "url": "https://frinckles94.github.io/recipe.html",
+          "image": "https://frinckles94.github.io/images/soup.png",
+          "description": "A vibrant, refreshing Latvian cold beet soup made with beets, kefir, crisp vegetables, and herbs. Perfect for summer!"
+        }
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "https://frinckles94.github.io/recipe2.html",
-        "name": "Frikadeļu Zupa – Latvian Meatball Soup"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "url": "https://frinckles94.github.io/article.html",
-        "name": "Why Latvian Soups Are the Best"
+        "item": {
+          "@type": "Recipe",
+          "name": "Frikadeļu Zupa - Latvian Meatball Soup",
+          "url": "https://frinckles94.github.io/recipe2.html",
+          "image": "https://frinckles94.github.io/images/meatball-soup.png",
+          "description": "A delicate and nourishing Latvian soup with small meatballs, potatoes, and seasonal vegetables. Perfect for everyday meals."
+        }
       }
     ]
   }
@@ -46,13 +53,13 @@
     <ul class="nav-list">
       <li onclick="location.href='recipe.html'">
         <div>
-          <a href="recipe.html">Recipe: Aukstā Zupa – Latvian Cold Beet Soup</a>
+          <a href="recipe.html">Recipe: Aukstā Zupa - Latvian Cold Beet Soup</a>
           <div class="desc">A vibrant, refreshing Latvian cold beet soup made with beets, kefir, crisp vegetables, and herbs. Perfect for summer!</div>
         </div>
       </li>
       <li onclick="location.href='recipe2.html'">
         <div>
-          <a href="recipe2.html">Recipe: Frikadeļu Zupa – Latvian Meatball Soup</a>
+          <a href="recipe2.html">Recipe: Frikadeļu Zupa - Latvian Meatball Soup</a>
           <div class="desc">A delicate and nourishing Latvian soup with small meatballs, potatoes, and seasonal vegetables. Perfect for everyday meals.</div>
         </div>
       </li>

@@ -274,7 +274,7 @@ footer {
   font-size: 1em;
   background: #f6f8fa;
   border-radius: 0 0 14px 14px;
-  box-shadow: 0 -2px 8px rgba(60,80,120,0.06);
+  box-shadow: 0 2px 8px rgba(60,80,120,0.06);
   letter-spacing: 0.5px;
 }
 
@@ -344,7 +344,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 28px 32px;
-  margin: 2.2em 0 2em 0; /* Increased top margin for better spacing */
+  margin: 2.2em 0 2em 0;
   padding: 0;
 }
 
