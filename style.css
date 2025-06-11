@@ -369,7 +369,7 @@ footer {
   border-color: #e0e7ef;
 }
 
-.nav-list a {
+.nav-list-a {
   color: #2e8b57;
   font-size: 1.18em;
   font-weight: bold;
@@ -378,6 +378,16 @@ footer {
   transition: color 0.15s;
   display: block;
 }
+
+.nav-list-a-nested {
+  color: #2e8b57;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  transition: color 0.15s;
+  display: block;
+}
+
 
 .nav-list a:hover {
   color: #b22222;
@@ -399,4 +409,14 @@ footer {
   border-radius: 12px;
   margin-bottom: 28px;
   box-shadow: 0 4px 18px rgba(60,80,120,0.13);
+}
+
+.nav-list-p{
+  color: #2e8b57;
+  font-size: 1.18em;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  transition: color 0.15s;
+  display: block;
 }
