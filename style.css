@@ -32,6 +32,10 @@ ul, ol {
   margin-bottom: 1.2em;
 }
 
+a {
+  color: #2e8b57;
+}
+
 li {
   margin: 0;
   background: none;
@@ -370,7 +374,6 @@ footer {
 }
 
 .nav-list-a {
-  color: #2e8b57;
   font-size: 1.18em;
   font-weight: bold;
   text-decoration: none;
@@ -380,7 +383,6 @@ footer {
 }
 
 .nav-list-a-nested {
-  color: #2e8b57;
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 0.5em;
